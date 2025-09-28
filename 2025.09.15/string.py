@@ -26,47 +26,27 @@ def is_contain(word: str) -> tuple[str, int]:
 """ def is_valid_password(valid_password: str):
     '''Megvizsgálja a megadott jelszót, hogy megfelel-e a követelményeknek'''
 
-    def contains_digit(w: str) -> bool:
-        '''Megnézi, hogy tartalmaz-e számot a jelszó'''
-        has_digit = False
-        for ch in word:
-            if ch.isdigit():
-                has_digit = True
-        return has_digit
-        
-    def contains_upper(w: str) -> bool:
-        '''Megnézi, hogy tartalmaz-e nagybetűt és kibetűt a jelszó'''
-        has_upper = False
-        for ch in word:
-            if ch.isupper():
-                has_upper = True
-        return has_upper
-        
-    given_password = ""
-def is_valid_password(valid_password: str):
-    '''Megvizsgálja a megadott jelszót, hogy megfelel-e a követelményeknek'''
-
-    def contains_digit(w: str) -> bool:
-        '''Megnézi, hogy tartalmaz-e számot a jelszó'''
-        has_digit = False
-        for ch in word:
-            if ch.isdigit():
-                has_digit = True
-        return has_digit
-        
-    def contains_upper(w: str) -> bool:
-        '''Megnézi, hogy tartalmaz-e nagybetűt és kibetűt a jelszó'''
-        has_upper = False
-        for ch in word:
-            if ch.isupper():
-                has_upper = True
-        return has_upper
-        
-    given_password = ""
-    while given_password != valid_password:
-        if len(given_password) >= 8 and contains_digit(given_password) and contains_upper:
-            given_password == valid_password
-        return given_password """
+        def contains_digit(w: str) -> bool:
+            '''Megnézi, hogy tartalmaz-e számot a jelszó'''
+            has_digit = False
+            for ch in word:
+                if ch.isdigit():
+                    has_digit = True
+            return has_digit
+            
+        def contains_upper(w: str) -> bool:
+            '''Megnézi, hogy tartalmaz-e nagybetűt és kibetűt a jelszó'''
+            has_upper = False
+            for ch in word:
+                if ch.isupper():
+                    has_upper = True
+            return has_upper
+            
+        given_password = ""
+        while given_password != valid_password:
+            if len(given_password) >= 8 and contains_digit(given_password) and contains_upper:
+                given_password == valid_password
+            return given_password """
 
 input_num = int(input("Adj meg egy számot: "))
 print(sum_of_digits(input_num))
