@@ -14,7 +14,7 @@ Készíts egy függvényt, amely egy sztringet **visszafelé** ad vissza (pl. "k
 
 Írj egy függvényt, amely megmondja, hányszor szerepel egy adott karakter egy sztringben. (pl. "almafa", 'a' → 3)
 
-Készíts függvényt, ami egy szövegben megkeresi az **összes számjegyet** és ezek összegét visszaadja. (pl. "Ma 2 alma és 3 körte van" → 5). Keress hozzá megfelelő sztring-metódust. Pl islapha...
+Készíts függvényt, ami egy szövegben megkeresi az **összes számjegyet** és ezek összegét visszaadja. (pl. "Ma 2 alma és 3 körte van" → 5). Keress hozzá megfelelő sztring-metódust. Pl islapha... -------------------------------------------------
 
 Írj egy függvényt, ami eldönti, hogy egy jelszó „**érvényes**”-e: legalább 8 karakter hosszú, tartalmaz legalább egy számot és egy nagybetűt.
 
@@ -22,4 +22,4 @@ Készíts egy függvényt, amely egy lista egész számaiból megszámolja, hán
 
 Készíts egy függvényt, amely  visszaadja a lista első olyan elemének indexét, amely osztható 3-mal. Ha nincs ilyen, térjen vissza -1-gyel. (while-ciklus).
 
-Készíts függvényt, amely egy számlistát dolgoz fel, és visszaadja az elemek szorzatát, **de ha 0-t talál, akkor ott leáll** és visszatér a pillanatnyi szorzattal. (while)
+Készíts függvényt, amely egy számlistát dolgoz fel, és visszaadja az elemek szorzatát, **de ha 0-t talál, akkor ott leáll** és visszatér a pillanatnyi szorzattal.
